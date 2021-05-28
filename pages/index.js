@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Button from '@material-ui/core/Button';
+import Button from '@material-ui/core/Button'
+import BasicLayout from '../layouts/BasicLayout'
 
 export default function Home() {
   return (
@@ -13,9 +14,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1>E-commerce NextJS</h1>
-        <Button variant="contained" color="primary">
-          Hello World
-        </Button>
+        <BasicLayout>
+          <Button variant="contained" color="primary">
+            Hello World
+          </Button>
+        </BasicLayout>
       </main>
     </div>
   )
