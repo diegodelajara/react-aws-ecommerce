@@ -20,6 +20,6 @@ export default function Home() {
           </Button>
         </BasicLayout>
       </main>
-    </div>
+    </div> 
   )
 }
