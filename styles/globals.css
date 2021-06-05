@@ -1,3 +1,8 @@
+
+
+/* Components */
+@import "../components/Header/Header.css";
+
 html,
 body {
   padding: 0;
